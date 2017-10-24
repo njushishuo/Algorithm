@@ -1,7 +1,7 @@
 /**
  * Created by ss14 on 2017/4/26.
  */
-public class LongestSubString {
+public class LongestCommonSubString {
 
 
     public int findLongestCommonSubStringBad(String A, int n, String B, int m) {
@@ -116,7 +116,9 @@ public class LongestSubString {
 
 
     public static void main(String[] args) {
-        LongestSubString main = new LongestSubString();
+        LongestCommonSubString main = new LongestCommonSubString();
         System.out.print(main.findLongestCommonSubStringGood("ABCAD",5,"AABCD",5));
     }
+
+    
 }

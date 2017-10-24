@@ -37,7 +37,7 @@ public class AscentSequence {
         //将排序后的A留在temp中
         mergeSort.mergeSort(A,temp);
 
-        LongestSubSequence longestSubSequence = new LongestSubSequence();
+        LongestCommonSubSequence longestSubSequence = new LongestCommonSubSequence();
         String a = "";
         String b = "";
         for(int i=0;i<A.length;i++){

@@ -2,7 +2,7 @@
  * 最长公共字符串与最长公共序列问题
  * 采用动态规划的算法
  */
-public class LongestSubSequence {
+public class LongestCommonSubSequence {
 
     /**
      *
@@ -60,7 +60,7 @@ public class LongestSubSequence {
 
 
     public static void main(String[] args) {
-        LongestSubSequence main = new LongestSubSequence();
+        LongestCommonSubSequence main = new LongestCommonSubSequence();
         System.out.print(main.findLongestCommmonSubSequence("ABCAD",5,"AABCD",5));
     }
 }
