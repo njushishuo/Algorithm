@@ -26,8 +26,8 @@
       <file leaf-file-name="CombinationSumII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/back_tracking/CombinationSumII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="62" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
+            <state relative-caret-position="1140">
+              <caret line="62" column="5" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="method#main#0;class#CombinationSumII#0" expanded="true" />
                 <element signature="method#combinationSum#0;class#CombinationSumII#0" expanded="true" />
@@ -42,9 +42,14 @@
       <file leaf-file-name="PalindromePartitioning.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/back_tracking/PalindromePartitioning.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="174">
+              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#PalindromePartitioning#0" expanded="true" />
+                <element signature="method#backTracking#0;class#PalindromePartitioning#0" expanded="true" />
+                <element signature="method#isPalidrome#0;class#PalindromePartitioning#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,7 +167,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,8 +192,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -215,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CombinationSumII">
+  <component name="RunManager" selected="Application.PalindromePartitioning">
     <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -254,14 +259,14 @@
       <module name="LeetCode" />
       <envs />
     </configuration>
-    <configuration name="PermutationII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromePartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="back_tracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="back_tracking.PermutationII" />
+      <option name="MAIN_CLASS_NAME" value="back_tracking.PalindromePartitioning" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -327,19 +332,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PermutationII" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SubSets" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SubSetsII" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CombinationSum" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CombinationSumII" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SubSets" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SubSetsII" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CombinationSum" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CombinationSumII" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PalindromePartitioning" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CombinationSumII" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CombinationSum" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SubSetsII" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SubSets" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PermutationII" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PalindromePartitioning" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CombinationSumII" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CombinationSum" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SubSetsII" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SubSets" />
       </list>
     </recent_temporary>
   </component>
@@ -392,12 +397,14 @@
       <workItem from="1508477458541" duration="12151000" />
       <workItem from="1508722708109" duration="9987000" />
       <workItem from="1508809402787" duration="11155000" />
-      <workItem from="1508900214607" duration="12212000" />
+      <workItem from="1508900214607" duration="12252000" />
+      <workItem from="1508996072997" duration="3147000" />
+      <workItem from="1509001121282" duration="3733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244198000" />
+    <option name="totallyTimeSpent" value="251118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -413,10 +420,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28152174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16521738" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3478261" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14925373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15245202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -749,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8151">
           <caret line="614" column="0" lean-forward="false" selection-start-line="614" selection-start-column="0" selection-end-line="614" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,11 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="185" column="36" lean-forward="false" selection-start-line="185" selection-start-column="36" selection-end-line="185" selection-end-column="36" />
-          <folding>
-            <element signature="method#main#0;class#LongestPalindromicSubstring#0" expanded="false" />
-            <element signature="method#findLongestCommonSubString#0;class#LongestPalindromicSubstring#0" expanded="false" />
-            <element signature="method#longestPalindrome#0;class#SolutionSimple#0;class#LongestPalindromicSubstring#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,10 +860,10 @@
         <state relative-caret-position="440">
           <caret line="39" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#PermutationII#0" expanded="true" />
-            <element signature="method#permute#0;class#PermutationII#0" expanded="true" />
-            <element signature="method#backtrack#0;class#PermutationII#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#main#0;class#PermutationII#0" expanded="false" />
+            <element signature="method#permute#0;class#PermutationII#0" expanded="false" />
+            <element signature="method#backtrack#0;class#PermutationII#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -872,10 +873,10 @@
         <state relative-caret-position="397">
           <caret line="66" column="57" lean-forward="true" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#Permutation#0" expanded="true" />
-            <element signature="method#permute#0;class#Permutation#0" expanded="true" />
-            <element signature="method#permute#0;class#Solution#0;class#Permutation#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#main#0;class#Permutation#0" expanded="false" />
+            <element signature="method#permute#0;class#Permutation#0" expanded="false" />
+            <element signature="method#permute#0;class#Solution#0;class#Permutation#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -885,8 +886,8 @@
         <state relative-caret-position="399">
           <caret line="32" column="128" lean-forward="false" selection-start-line="32" selection-start-column="128" selection-end-line="32" selection-end-column="128" />
           <folding>
-            <element signature="method#main#0;class#SubSetsII#0" expanded="true" />
-            <element signature="method#subsets#0;class#SubSetsII#0" expanded="true" />
+            <element signature="method#main#0;class#SubSetsII#0" expanded="false" />
+            <element signature="method#subsets#0;class#SubSetsII#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -896,12 +897,12 @@
         <state relative-caret-position="521">
           <caret line="70" column="9" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="70" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#SubSets#0" expanded="true" />
-            <element signature="method#subsets#0;class#SubSets#0" expanded="true" />
-            <element signature="method#backTrack#0;class#SubSets#0" expanded="true" />
-            <element signature="method#subsets#0;class#Solution#0;class#SubSets#0" expanded="true" />
-            <element signature="method#backTrack#0;class#Solution#0;class#SubSets#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#main#0;class#SubSets#0" expanded="false" />
+            <element signature="method#subsets#0;class#SubSets#0" expanded="false" />
+            <element signature="method#backTrack#0;class#SubSets#0" expanded="false" />
+            <element signature="method#subsets#0;class#Solution#0;class#SubSets#0" expanded="false" />
+            <element signature="method#backTrack#0;class#Solution#0;class#SubSets#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -921,8 +922,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/back_tracking/CombinationSumII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
+        <state relative-caret-position="1140">
+          <caret line="62" column="5" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="method#main#0;class#CombinationSumII#0" expanded="true" />
             <element signature="method#combinationSum#0;class#CombinationSumII#0" expanded="true" />
@@ -935,9 +936,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/back_tracking/PalindromePartitioning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="174">
+          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#PalindromePartitioning#0" expanded="true" />
+            <element signature="method#backTracking#0;class#PalindromePartitioning#0" expanded="true" />
+            <element signature="method#isPalidrome#0;class#PalindromePartitioning#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
