@@ -23,47 +23,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CombinationSumII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/back_tracking/CombinationSumII.java">
+      <file leaf-file-name="MaximumSubarray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dynamic_programing/MaximumSubarray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="62" column="5" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
+            <state relative-caret-position="262">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
-                <element signature="method#main#0;class#CombinationSumII#0" expanded="true" />
-                <element signature="method#combinationSum#0;class#CombinationSumII#0" expanded="true" />
-                <element signature="method#backTrack#0;class#CombinationSumII#0" expanded="true" />
-                <element signature="method#combinationSum#0;class#Solution#0;class#CombinationSumII#0" expanded="true" />
-                <element signature="method#backTrack#0;class#Solution#0;class#CombinationSumII#0" expanded="true" />
+                <element signature="method#maxSubArray#0;class#MaximumSubarray#0" expanded="true" />
+                <element signature="method#maxSubArrayBetter#0;class#MaximumSubarray#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PalindromePartitioning.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/back_tracking/PalindromePartitioning.java">
+      <file leaf-file-name="RotateImage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/array/RotateImage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="342">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#main#0;class#PalindromePartitioning#0" expanded="true" />
-                <element signature="method#backTracking#0;class#PalindromePartitioning#0" expanded="true" />
-                <element signature="method#isPalidrome#0;class#PalindromePartitioning#0" expanded="true" />
+                <element signature="method#rotate#0;class#RotateImage#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CombinationSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/back_tracking/CombinationSum.java">
+      <file leaf-file-name="GenerateParentheses.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/back_tracking/GenerateParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="19">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupAnagrams.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/string/GroupAnagrams.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="63" column="41" lean-forward="false" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#main#0;class#CombinationSum#0" expanded="true" />
-                <element signature="method#combinationSum#0;class#CombinationSum#0" expanded="true" />
-                <element signature="method#backTrack#0;class#CombinationSum#0" expanded="true" />
+                <element signature="method#main#0;class#GroupAnagrams#0" expanded="true" />
+                <element signature="method#groupAnagrams#0;class#GroupAnagrams#0" expanded="true" />
+                <element signature="method#groupAnagramsBetter#0;class#GroupAnagrams#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,17 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dynamic_programing/MinimumPathSum.java" />
-        <option value="$PROJECT_DIR$/src/array/MinSubarraySum.java" />
-        <option value="$PROJECT_DIR$/src/array/MissingNumber.java" />
-        <option value="$PROJECT_DIR$/src/array/NextPermutation.java" />
-        <option value="$PROJECT_DIR$/src/list/AddTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/src/list/ConvertSortedListToBST.java" />
-        <option value="$PROJECT_DIR$/src/list/CopyListWithRandomPointer.java" />
-        <option value="$PROJECT_DIR$/src/list/DeleteNode.java" />
-        <option value="$PROJECT_DIR$/src/list/InsertSort.java" />
-        <option value="$PROJECT_DIR$/src/list/HasCycle.java" />
-        <option value="$PROJECT_DIR$/src/list/IntersectionOfTwoLinkedLists.java" />
         <option value="$PROJECT_DIR$/src/list/HasCycleII.java" />
         <option value="$PROJECT_DIR$/src/list/MergeTwoSortedList.java" />
         <option value="$PROJECT_DIR$/src/list/OddEvenList.java" />
@@ -137,6 +129,17 @@
         <option value="$PROJECT_DIR$/src/back_tracing/CombinationSumII.java" />
         <option value="$PROJECT_DIR$/src/back_tracing/PalindromePartitioning.java" />
         <option value="$PROJECT_DIR$/src/back_tracking/PalindromePartitioning.java" />
+        <option value="$PROJECT_DIR$/src/array/ContainerWithMostWater.java" />
+        <option value="$PROJECT_DIR$/src/back_tracking/LetterCombinationsOfAPhoneNumber.java" />
+        <option value="$PROJECT_DIR$/src/stack/ValidParentheses.java" />
+        <option value="$PROJECT_DIR$/src/stack/GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/src/array/SingleNumber.java" />
+        <option value="$PROJECT_DIR$/src/array/SearchInRotatedSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/array/SearchForARange.java" />
+        <option value="$PROJECT_DIR$/src/dynamic_programing/MaximumSubarray.java" />
+        <option value="$PROJECT_DIR$/src/array/RotateImage.java" />
+        <option value="$PROJECT_DIR$/src/back_tracking/GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/src/string/GroupAnagrams.java" />
       </list>
     </option>
   </component>
@@ -147,10 +150,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="y" value="3" />
+    <option name="width" value="1036" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -167,9 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,19 +187,27 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="back_tracking" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../server" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
@@ -220,15 +229,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PalindromePartitioning">
-    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.GroupAnagrams">
+    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="back_tracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="back_tracking.CombinationSum" />
+      <option name="MAIN_CLASS_NAME" value="back_tracking.GenerateParentheses" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -240,14 +249,14 @@
       <module name="LeetCode" />
       <envs />
     </configuration>
-    <configuration name="CombinationSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="back_tracking.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="back_tracking.CombinationSumII" />
+      <option name="MAIN_CLASS_NAME" value="string.GroupAnagrams" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -259,14 +268,14 @@
       <module name="LeetCode" />
       <envs />
     </configuration>
-    <configuration name="PalindromePartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LetterCombinationsOfAPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="back_tracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="back_tracking.PalindromePartitioning" />
+      <option name="MAIN_CLASS_NAME" value="back_tracking.LetterCombinationsOfAPhoneNumber" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -278,14 +287,14 @@
       <module name="LeetCode" />
       <envs />
     </configuration>
-    <configuration name="SubSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="back_tracking.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="back_tracking.SubSets" />
+      <option name="MAIN_CLASS_NAME" value="array.RotateImage" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -297,14 +306,14 @@
       <module name="LeetCode" />
       <envs />
     </configuration>
-    <configuration name="SubSetsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="back_tracking.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="back_tracking.SubSetsII" />
+      <option name="MAIN_CLASS_NAME" value="array.SearchInRotatedSortedArray" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -332,19 +341,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SubSets" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SubSetsII" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CombinationSum" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CombinationSumII" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PalindromePartitioning" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LetterCombinationsOfAPhoneNumber" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GenerateParentheses" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SearchInRotatedSortedArray" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RotateImage" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GroupAnagrams" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PalindromePartitioning" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CombinationSumII" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CombinationSum" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SubSetsII" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SubSets" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GroupAnagrams" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RotateImage" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SearchInRotatedSortedArray" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GenerateParentheses" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LetterCombinationsOfAPhoneNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -399,12 +408,17 @@
       <workItem from="1508809402787" duration="11155000" />
       <workItem from="1508900214607" duration="12252000" />
       <workItem from="1508996072997" duration="3147000" />
-      <workItem from="1509001121282" duration="3733000" />
+      <workItem from="1509001121282" duration="4358000" />
+      <workItem from="1509175378634" duration="2552000" />
+      <workItem from="1509431152241" duration="7695000" />
+      <workItem from="1509501068391" duration="16368000" />
+      <workItem from="1509586221357" duration="675000" />
+      <workItem from="1509674286639" duration="10658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251118000" />
+    <option name="totallyTimeSpent" value="289691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -418,19 +432,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41086957" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28152174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3478261" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24565217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.110869564" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15245202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24733475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2923913" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2923913" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -509,112 +523,21 @@
           <properties />
           <option name="timeStamp" value="174" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/RotateImage.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="188" />
+      <option name="time" value="214" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/list.java" />
-    <entry file="file://$PROJECT_DIR$/src/list/ConvertSortedListToBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/list/AddTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="57" column="9" lean-forward="false" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/list/CopyListWithRandomPointer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="75" column="7" lean-forward="false" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/list/DeleteNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/MinOfRotatedSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/list/HasCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/MinOfRotatedSortedArrayII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/FindDuplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/list/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="method#main#0;class#InsertSort#0" expanded="false" />
-            <element signature="method#ListNode#0;class#ListNode#0;class#InsertSort#0" expanded="false" />
-            <element signature="method#insertionSortList#0;class#InsertSort#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/list/OddEvenList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/list/HasCycleII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/list/IntersectionOfTwoLinkedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/list/MergeTwoSortedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/list/PalindromeLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -832,11 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5149">
           <caret line="398" column="25" lean-forward="false" selection-start-line="398" selection-start-column="25" selection-end-line="398" selection-end-column="25" />
-          <folding>
-            <element signature="method#StringBuilder#2;class#StringBuilder#0" expanded="false" />
-            <element signature="method#delete#0;class#StringBuilder#0" expanded="false" />
-            <element signature="method#reverse#0;class#StringBuilder#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,12 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="39" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#main#0;class#PermutationII#0" expanded="false" />
-            <element signature="method#permute#0;class#PermutationII#0" expanded="false" />
-            <element signature="method#backtrack#0;class#PermutationII#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,12 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="66" column="57" lean-forward="true" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#main#0;class#Permutation#0" expanded="false" />
-            <element signature="method#permute#0;class#Permutation#0" expanded="false" />
-            <element signature="method#permute#0;class#Solution#0;class#Permutation#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,10 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="32" column="128" lean-forward="false" selection-start-line="32" selection-start-column="128" selection-end-line="32" selection-end-column="128" />
-          <folding>
-            <element signature="method#main#0;class#SubSetsII#0" expanded="false" />
-            <element signature="method#subsets#0;class#SubSetsII#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,53 +798,153 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="70" column="9" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="70" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#main#0;class#SubSets#0" expanded="false" />
-            <element signature="method#subsets#0;class#SubSets#0" expanded="false" />
-            <element signature="method#backTrack#0;class#SubSets#0" expanded="false" />
-            <element signature="method#subsets#0;class#Solution#0;class#SubSets#0" expanded="false" />
-            <element signature="method#backTrack#0;class#Solution#0;class#SubSets#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/back_tracking/CombinationSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="133">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#CombinationSum#0" expanded="true" />
-            <element signature="method#combinationSum#0;class#CombinationSum#0" expanded="true" />
-            <element signature="method#backTrack#0;class#CombinationSum#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/back_tracking/CombinationSumII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
+        <state relative-caret-position="494">
           <caret line="62" column="5" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="method#main#0;class#CombinationSumII#0" expanded="true" />
-            <element signature="method#combinationSum#0;class#CombinationSumII#0" expanded="true" />
-            <element signature="method#backTrack#0;class#CombinationSumII#0" expanded="true" />
-            <element signature="method#combinationSum#0;class#Solution#0;class#CombinationSumII#0" expanded="true" />
-            <element signature="method#backTrack#0;class#Solution#0;class#CombinationSumII#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/back_tracking/PalindromePartitioning.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
-          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/ContainerWithMostWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back_tracking/LetterCombinationsOfAPhoneNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="48" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stack.java" />
+    <entry file="file://$PROJECT_DIR$/src/stack/ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Programing/Java/jdk1.8.0_141/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="998" column="31" lean-forward="false" selection-start-line="998" selection-start-column="31" selection-end-line="998" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#PalindromePartitioning#0" expanded="true" />
-            <element signature="method#backTracking#0;class#PalindromePartitioning#0" expanded="true" />
-            <element signature="method#isPalidrome#0;class#PalindromePartitioning#0" expanded="true" />
+            <element signature="e#38211#38212#0" expanded="false" />
+            <element signature="e#38250#38251#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/SingleNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="method#singleNumber#0;class#SingleNumber#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/SearchInRotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="94" selection-end-column="18" />
+          <folding>
+            <element signature="method#main#0;class#SearchInRotatedSortedArray#0" expanded="false" />
+            <element signature="method#search#0;class#SearchInRotatedSortedArray#0" expanded="false" />
+            <element signature="method#binarySearch#0;class#SearchInRotatedSortedArray#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/SearchForARange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/RotateImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="method#rotate#0;class#RotateImage#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/back_tracking/GenerateParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamic_programing/MaximumSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="method#maxSubArray#0;class#MaximumSubarray#0" expanded="true" />
+            <element signature="method#maxSubArrayBetter#0;class#MaximumSubarray#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Programing/Java/jdk1.8.0_141/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="607" column="70" lean-forward="true" selection-start-line="607" selection-start-column="70" selection-end-line="607" selection-end-column="70" />
+          <folding>
+            <element signature="e#23597#23598#0" expanded="false" />
+            <element signature="e#23651#23652#0" expanded="false" />
+            <element signature="method#entrySet#0;class#HashMap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Programing/Java/jdk1.8.0_141/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/GroupAnagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="63" column="41" lean-forward="false" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding>
+            <element signature="method#main#0;class#GroupAnagrams#0" expanded="true" />
+            <element signature="method#groupAnagrams#0;class#GroupAnagrams#0" expanded="true" />
+            <element signature="method#groupAnagramsBetter#0;class#GroupAnagrams#0" expanded="true" />
           </folding>
         </state>
       </provider>
