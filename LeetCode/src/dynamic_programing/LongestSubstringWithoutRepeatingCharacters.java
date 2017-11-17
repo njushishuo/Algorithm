@@ -1,5 +1,6 @@
 package dynamic_programing;
 
+import java.util.HashMap;
 import java.util.HashSet;
 
 /**
@@ -20,10 +21,19 @@ public class LongestSubstringWithoutRepeatingCharacters {
         String a = "dvdf";
         String b = "abcabcbb";
         String c = "bbbbb";
+        String d = "pwwkew";
 
-        System.out.println(lswr.lengthOfLongestSubstring(a));
-        System.out.println(lswr.lengthOfLongestSubstring(b));
-        System.out.println(lswr.lengthOfLongestSubstring(c));
+        System.out.print(lswr.lengthOfLongestSubstring(a)+" ");
+        System.out.println(lswr.lengthOfLongestSubstringMap(a));
+
+        System.out.print(lswr.lengthOfLongestSubstring(b)+" ");
+        System.out.println(lswr.lengthOfLongestSubstringMap(b));
+
+        System.out.print(lswr.lengthOfLongestSubstring(c)+" ");
+        System.out.println(lswr.lengthOfLongestSubstringMap(c));
+
+        System.out.print(lswr.lengthOfLongestSubstring(d)+" ");
+        System.out.println(lswr.lengthOfLongestSubstringMap(d));
 
 
     }
@@ -67,6 +77,31 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
 
     /**
+     * use HashMap
+     * @param s
+     * @return
+     */
+    public int lengthOfLongestSubstringMap(String s) {
+
+        if(s == null || s.length() == 0){
+            return 0;
+        }
+
+        HashMap<Character , Integer> map = new HashMap<>();
+        int max = 0;
+        int left = 0;
+        for(int i = 0; i < s.length(); i++){
+            char tempChar = s.charAt(i);
+            left = Math.max( map.containsKey(tempChar)?  map.get(tempChar)+1 : 0 , left);
+            max = Math.max(max , i-left+1);
+            map.put(tempChar,i);
+        }
+        return  max;
+    }
+
+
+
+    /**
      * Solution (DP, O(n)):
      *
      * Assume L[i] = s[m...i], denotes the longest substring without repeating
@@ -94,16 +129,16 @@ public class LongestSubstringWithoutRepeatingCharacters {
          *  int[128] for ASCII
          *  int[256] for Extended ASCII
          */
-        int [] dp = new int [256];
-        for( int i = 0; i < dp.length; i++){
-            dp[i] = -1;
+        int [] map = new int [256];
+        for( int i = 0; i < map.length; i++){
+            map[i] = -1;
         }
 
         int longest = 0, m = 0;
 
         for (int i = 0; i < s.length(); i++) {
-            m = Math.max(dp[s.charAt(i)] + 1, m);    // automatically takes care of -1 case
-            dp[s.charAt(i)] = i;
+            m = Math.max(map[s.charAt(i)] + 1, m);    // automatically takes care of -1 case
+            map[s.charAt(i)] = i;
             longest = Math.max(longest, i - m + 1);
         }
 

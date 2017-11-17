@@ -4,7 +4,8 @@ package dynamic_programing;
  * https://leetcode.com/problems/maximum-subarray/description/
  *
  * dp[i] 表示从a0-ai的最大和
- * dp[i] = dp[i-1]
+ * dp[i] = dp[i-1]+a[i] , dp[i-1]>0;
+ * dp[i] = a[i];
  */
 public class MaximumSubarray {
 
