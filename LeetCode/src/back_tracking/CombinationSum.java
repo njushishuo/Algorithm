@@ -18,32 +18,50 @@ public class CombinationSum {
         CombinationSum cs = new CombinationSum();
         int [] candidates = {2,3,6,7};
         int target = 7;
+        int target1 = 6;
         System.out.println(cs.combinationSum(candidates,target));
+        System.out.println(cs.combinationSum(candidates,target1));
     }
 
 
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+    private List<List<Integer>> result;
+    private List<Integer> tempList;
+    private int [] candidates;
+    private int target;
+    private int curSum;
 
-        List<List<Integer>> result = new ArrayList<>();
+    public CombinationSum(){
+        this.result = new ArrayList<>();
+        this.tempList = new ArrayList<>();
+    }
+
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        this.tempList.clear();
+        this.result.clear();
+        this.candidates = candidates;
+        this.target = target;
+        this.curSum = 0;
         Arrays.sort(candidates);
-        backTrack(candidates,target,result,new ArrayList<>(),0 , 0 );
+        backTrack( 0 );
         return  result;
     }
 
-    public void backTrack(int [] nums, int target, List<List<Integer>> result, List<Integer> tempList, int curSum , int fromIndex){
+    public void backTrack(int fromIndex){
 
         if(curSum == target){
             result.add(new ArrayList<>(tempList));
             return;
         }
 
-        for(int i = fromIndex; i < nums.length ; i++){
-            if(curSum + nums[i] <= target){
-                tempList.add(nums[i]);
-                curSum += nums[i];
-                backTrack(nums,target,result,tempList,curSum,i);
+        for(int i = fromIndex; i < candidates.length ; i++){
+            if(curSum + candidates[i] <= target){
+                tempList.add(candidates[i]);
+                curSum += candidates[i];
+                backTrack(i);
                 tempList.remove(tempList.size()-1);
-                curSum -= nums[i];
+                curSum -= candidates[i];
+            }else{
+                break;
             }
         }
     }

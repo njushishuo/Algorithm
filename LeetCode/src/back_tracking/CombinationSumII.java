@@ -10,6 +10,9 @@ import java.util.List;
  * 输出: 所有整数list,使得各个元素来自候选数组且元素和等于target
  *
  * 候选数组中的每个元素只可以被使用一次，候选元素不一定唯一
+ * 结果集中不能有重复的组合
+ *
+ * 使用 used boolean[] 来解决候选元素本身重复的问题。当前重复元素可用的前提是（排序后的）数组中前一个元素已经被使用；
  */
 public class CombinationSumII {
 
@@ -17,11 +20,19 @@ public class CombinationSumII {
     public static void main(String args[]){
         CombinationSumII cs = new CombinationSumII();
         Solution solution = new Solution();
-        int [] candidates = {10, 1, 2, 7, 6, 1, 5};
+        int [] candidates = {10, 1, 2, 7, 6, 1, 5};  // 1 1 2 5 6 7 10
         int target = 8;
         System.out.println(cs.combinationSum(candidates,target));
         System.out.println(solution.combinationSum(candidates,target));
     }
+
+
+    private List<List<Integer>> result;
+    private boolean[] used;
+    private List<Integer> tempList;
+    private int [] nums;
+    private int target;
+    private int curSum;
 
 
     /**
@@ -33,14 +44,18 @@ public class CombinationSumII {
      */
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
 
-        List<List<Integer>> result = new ArrayList<>();
+        this.result = new ArrayList<>();
+        this.tempList = new ArrayList<>();
+        this.nums = candidates;
+        this.target = target;
+        this.curSum = 0;
+        this.used = new boolean[candidates.length];
         Arrays.sort(candidates);
-        boolean [] used = new boolean[candidates.length];
-        backTrack(candidates,target,result,used,new ArrayList<>(),0 , 0);
+        backTrack( 0);
         return  result;
     }
 
-    public void backTrack(int [] nums, int target, List<List<Integer>> result,boolean[] used,List<Integer> tempList, int curSum , int fromIndex){
+    public void backTrack(int fromIndex){
 
         if(curSum == target){
             result.add(new ArrayList<>(tempList));
@@ -54,7 +69,7 @@ public class CombinationSumII {
                 tempList.add(nums[i]);
                 used[i] = true;
                 curSum += nums[i];
-                backTrack(nums,target,result,used,tempList,curSum , i+1);
+                backTrack( i+1);
                 tempList.remove(tempList.size()-1);
                 curSum -= nums[i];
                 used[i] = false;
