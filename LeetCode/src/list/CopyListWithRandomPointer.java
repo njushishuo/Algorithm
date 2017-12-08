@@ -4,11 +4,13 @@ import java.util.HashMap;
 
 /**
  * https://leetcode.com/problems/copy-list-with-random-pointer/
- *
+ * A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.
+ * Return a deep copy of the list.
  * 方法1：首先遍历链表，同时建立新的链表，以及保存输入和输出链表的每个节点的对应关系；
  *       第二次遍历，设置好random   space: O(n)  time: O(n)
  *
  * 方法2：真的必须用map来存储吗？ 除了输入和输出的必须空间外不再额外使用
+ * 秘密在于先把原链表double化，再拆分
  *
  */
 public class CopyListWithRandomPointer {
@@ -46,10 +48,7 @@ public class CopyListWithRandomPointer {
 
             while(curNode!=null){
                 RandomListNode temp = hashMap.get(curNode.random);
-                if(temp != null){
-                    RandomListNode randomListNode = new RandomListNode(temp.label);
-                    resCurNode.random = randomListNode;
-                }
+                resCurNode.random = temp;
                 resCurNode = resCurNode.next;
                 curNode = curNode.next;
             }

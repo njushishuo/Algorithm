@@ -3,7 +3,6 @@ package list;
 
 /**
  * https://leetcode.com/problems/intersection-of-two-linked-lists/description/
- * 只需要判断是否有环
  *
  */
 public class IntersectionOfTwoLinkedLists {
@@ -64,7 +63,7 @@ public class IntersectionOfTwoLinkedLists {
 
         while(curNodeA != null && curNodeB !=null){
             if(curNodeA == curNodeB){
-                return new ListNode(curNodeA.val);
+                return curNodeA;
             }else{
                 curNodeA = curNodeA.next;
                 curNodeB = curNodeB.next;

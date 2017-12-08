@@ -30,7 +30,7 @@ public class ReorderList {
         }
         ListNode mid = this.findMid(head);
         ListNode rightHead = this.reverseList(mid.next);
-        mid.next =null;
+        mid.next = null;
         ListNode leftHead = head;
 
         ListNode leftNext ;

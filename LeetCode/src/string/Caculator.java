@@ -128,9 +128,6 @@ public class Caculator {
         return result;
     }
 
-//    public static int calculate(String postOrder){
-//
-//    }
 
 
 }

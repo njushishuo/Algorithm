@@ -78,21 +78,21 @@ public class MergeTwoSortedList {
      * @return
      */
     public ListNode mergeTwoListsB(ListNode l1, ListNode l2){
-        ListNode pre1 = new ListNode(0);
-        ListNode head = pre1;
+        ListNode preNode = new ListNode(0);
+        ListNode head = preNode;
 
         while(l1 != null && l2 != null){
             if(l1.val <= l2.val){
-                pre1.next = l1;
+                preNode.next = l1;
                 l1 = l1.next;
             }else{
-                pre1.next = l2;
+                preNode.next = l2;
                 l2 = l2.next;
             }
-            pre1 = pre1.next;
+            preNode = preNode.next;
         }
-        if(l1 == null) pre1.next = l2;
-        else pre1.next = l1;
+        if(l1 == null) preNode.next = l2;
+        else preNode.next = l1;
         return head.next;
     }
 }

@@ -20,10 +20,13 @@ public class JumpGame {
         int [] input2 = {3,2,1,0,4};
         JumpGame jg = new JumpGame();
         SolutionDP solutionDP = new SolutionDP();
+        SolutionGreedy solutionGreedy = new SolutionGreedy();
         System.out.println(jg.canJump(input1));
-        System.out.println(jg.canJump(input1));
-        System.out.println(solutionDP.canJump(input2));
-        System.out.println(solutionDP.canJump(input2));
+        System.out.println(jg.canJump(input2));
+        System.out.println(solutionDP.canJump(input1));
+        System.out.println(solutionDP.canJump(input1));
+        System.out.println(solutionGreedy.canJump(input1));
+        System.out.println(solutionGreedy.canJump(input2));
     }
 
 
