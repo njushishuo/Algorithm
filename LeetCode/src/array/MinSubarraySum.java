@@ -1,7 +1,5 @@
 package array;
 
-import java.util.Arrays;
-
 /**
  * https://leetcode.com/problems/minimum-size-subarray-sum/description/
  * 输入: int [] nums >0,int s  PS: 数组的顺序不可变

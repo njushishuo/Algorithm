@@ -1,6 +1,8 @@
 package back_tracking;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
 
 /**
  * Created by ss14 on 2017/11/21.
