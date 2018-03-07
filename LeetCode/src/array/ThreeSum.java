@@ -9,6 +9,7 @@ import java.util.List;
  *  Your runtime beats 96.97 % of java submissions.   Yeah!
  *  注意可能存在重复的元素
  *  可以获得O(n2)的时间复杂度
+    排序后，搜索两个数字之和为某个特定值的时间复杂度是 O(n)
  */
 public class ThreeSum {
 
