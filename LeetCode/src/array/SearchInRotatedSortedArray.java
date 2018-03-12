@@ -26,12 +26,12 @@ public class SearchInRotatedSortedArray {
         int target5 = 1;
 
         SearchInRotatedSortedArray si = new SearchInRotatedSortedArray();
-        System.out.println(si.search(nums,target) +","+ si.searchBetter(nums,target));
-        System.out.println(si.search(nums1,target1)+","+ si.searchBetter(nums1,target1));
-        System.out.println(si.search(nums2,target2)+","+ si.searchBetter(nums2,target2));
-        System.out.println(si.search(nums3,target3)+","+ si.searchBetter(nums3,target3));
-        System.out.println(si.search(nums4,target4)+","+ si.searchBetter(nums4,target4));
-        System.out.println(si.search(nums5,target5)+","+ si.searchBetter(nums5,target5));
+        System.out.println(si.search(nums,target) +","+ si.searchBetter(nums,target)+","+si.searchNew(nums,target));
+        System.out.println(si.search(nums1,target1)+","+ si.searchBetter(nums1,target1)+","+si.searchNew(nums1,target1));
+        System.out.println(si.search(nums2,target2)+","+ si.searchBetter(nums2,target2)+","+si.searchNew(nums2,target2));
+        System.out.println(si.search(nums3,target3)+","+ si.searchBetter(nums3,target3)+","+si.searchNew(nums3,target3));
+        System.out.println(si.search(nums4,target4)+","+ si.searchBetter(nums4,target4)+","+si.searchNew(nums4,target4));
+        System.out.println(si.search(nums5,target5)+","+ si.searchBetter(nums5,target5)+","+si.searchNew(nums5,target5));
     }
 
     public int search(int[] nums, int target) {
@@ -80,6 +80,8 @@ public class SearchInRotatedSortedArray {
 
             boolean isRotated = nums[left] > nums[right];
 
+            //其实很简单，按照未旋转的判断方法，mid比较大，希望寻找更小的数字，那么一般情况下都需要往左找，什么时候需要往右找呢？
+            //当处于旋转的左半侧并且left > target的时候，需要到包含右半侧的地方继续寻找； 注意等号
             if(nums[mid] > target ){
                 if( isRotated && nums[mid] >= nums[left] && nums[left] > target)
                     left = mid+1;
@@ -95,5 +97,53 @@ public class SearchInRotatedSortedArray {
         return -1;
     }
 
+
+
+    public int searchNew(int [] nums, int target){
+        int left = 0;
+        int right = nums.length - 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+
+            if (nums[mid] == target) {
+                return mid;
+            }
+
+            boolean isRotated = nums[left] > nums[right];
+
+            if(!isRotated){
+                if(nums[mid] > target){
+                    right = mid - 1;
+                }else{
+                    left = mid + 1;
+                }
+            }else{
+                // left half
+                if(nums[mid] >= nums [left]){
+                    if(nums[mid] > target){
+                        if( nums[left] <= target){
+                            right = mid - 1;
+                        }else{
+                            left = mid + 1;
+                        }
+                    }else{
+                        left = mid + 1;
+                    }
+                }else{
+                    if(nums[mid] < target){
+                        if( nums[right] >= target){
+                            left = mid + 1;
+                        }else{
+                            right = mid - 1;
+                        }
+                    }else{
+                        right = mid - 1;
+                    }
+                }
+            }
+        }
+        return -1;
+    }
 
 }
