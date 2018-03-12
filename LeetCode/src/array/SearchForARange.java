@@ -22,17 +22,10 @@ public class SearchForARange {
                 index = mid;
                 break;
             }
-            boolean isRotated = nums[left] > nums[right];
 
             if(nums[mid] > target ){
-                if( isRotated && nums[mid] >= nums[left] && nums[left] > target)
-                    left = mid+1;
-                else
                     right = mid-1;
             }else{
-                if( isRotated && nums[mid] <= nums[left] && nums[right] < target )
-                    right = mid-1;
-                else
                     left = mid+1;
             }
         }
@@ -52,7 +45,7 @@ public class SearchForARange {
             j++;
         }
         result[0] = i+1;
-        result[1] = j+1;
+        result[1] = j-1;
         return result;
     }
 }
