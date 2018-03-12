@@ -24,6 +24,7 @@ public class NestArray {
         int result =0;
         for(int i=0;i<nums.length;i++){
             int cur = i; int cnt =1;
+            // 注意理解 nums[cur] != i; 没错只要不等于起点就说明还没有走到环的尽头
             while( nums[cur]!=i){
                 cur = nums[cur];
                 cnt++;
@@ -39,6 +40,8 @@ public class NestArray {
         int result =0;
         int [] visitedArray = new int [nums.length];
         for(int i=0;i<nums.length;i++){
+
+            //已经访问过的环都会标注为1；只走那些还没走过的环
             if(visitedArray[i]==1){
                 continue;
             }
