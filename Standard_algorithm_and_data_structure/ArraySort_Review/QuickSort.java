@@ -22,7 +22,7 @@ public class QuickSort {
     }
 
     /**
-     * 三值取中法确定pivot，并将较小的值放到a[0]，较大的值放到a[length-1], center 作为pivot, 最终将center放置末尾;
+     * 三值取中法确定pivot，并将较小的值放到a[0]，较大的值放到a[length-1]
      * @param a
      * @param left
      * @param right
@@ -50,14 +50,16 @@ public class QuickSort {
 
 
     private void quickSort(int a[] ,int left, int right){
+        //至少有三个元素
         if(left+2<=right){
+            //pivot放在了right-1
             int pivot = choosePivot(a,left,right);
 
             int i= left;
             int j= right-1;
 
             while(true){
-                // if a[i] == pivot, i will stop
+
                 while(a[i] < pivot ){
                     i++;
                 }
@@ -69,13 +71,11 @@ public class QuickSort {
                 if(i >= j){
                     break;
                 }
-                
-                // if a[i] = a[j] = pivot do nothing
+
                 if(a[i] > a[j]){
                     swapValue(a,i,j);
                 }
 
-                //change i and j to move further, else for a[i] or a[j] == pivot i or j will stick.
                 i++;
                 j--;
             }
