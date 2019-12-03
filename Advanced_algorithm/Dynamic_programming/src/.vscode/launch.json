@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UnboundedKnapsack",
+            "request": "launch",
+            "mainClass": "knapsack.UnboundedKnapsack",
+            "projectName": "src_36f5394f"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InvestmentProblem",
+            "request": "launch",
+            "mainClass": "InvestmentProblem",
+            "projectName": "src_36f5394f"
+        }
+    ]
+}
