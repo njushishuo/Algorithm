@@ -54,7 +54,7 @@ public class AscentSequence {
      * 对于序列S: a1,a2,,,ai
      * 它的最长递增子序列，必然是在以a1,a2,,,ai结尾的递增子序列中的一个
      * 用dp[i]表示序列a1,a2,,,ai 中以ai结尾的最长递增子序列的长度
-     * 则： dp[i]= max(dp[j])+1; 其中j<i 且 dp[j] < dp[i]
+     * 则： dp[i]= max(dp[j])+1; 其中j<i 且 aj < ai
      * @param A
      * @param n
      * @return

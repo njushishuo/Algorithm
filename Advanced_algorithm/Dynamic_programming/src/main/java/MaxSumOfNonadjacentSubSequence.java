@@ -2,6 +2,7 @@
  * Created by ss14 on 2017/5/12.
  * 求一个整数数组的最大子序列的和
  * 要求： 数组不包含负数； 子序列中任意两个元素不相邻
+ * https://leetcode.com/problems/house-robber/
  */
 public class MaxSumOfNonadjacentSubSequence {
 
@@ -27,12 +28,18 @@ public class MaxSumOfNonadjacentSubSequence {
      */
     int findMaximumSumofSubArray(int [] a){
 
+        if(a == null || a.length == 0){
+            return 0;
+        }
+        
         int inclu = a[0];
         int exclu = 0;
+        int temp;
 
         for(int i=1 ; i<a.length;i++){
+            temp = exclu + a[i];
             exclu = Math.max(inclu,exclu);
-            inclu = exclu + a[i];
+            inclu = temp;
         }
 
         return Math.max(exclu,inclu);

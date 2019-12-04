@@ -33,4 +33,21 @@ public class MaxSumOfContinuousSubArrayWithMinusValue {
     }
 
 
+    int findMaximumSumofSubArrayEasyToUnderstand(int [] a){
+
+        int dp[] = new int[a.length];
+        int maxSum =0;
+        for(int i=1;i<a.length;i++){
+            if(dp[i-1]<=0){
+                dp[i] = a[i];
+            }else{
+                dp[i] = dp[i-1]+a[i];
+            }
+            if(dp[i]>maxSum){
+                maxSum = dp[i];
+            }
+        }
+        return maxSum;
+    }
+
 }
